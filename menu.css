@@ -1,0 +1,136 @@
+body {
+    background-color: black;
+}
+.navbar-container {
+    background-color: black;
+    margin-right: -8px;
+    margin-left: -8px;
+    margin-top: -8px;
+    padding: 1px;
+}
+.navbar {
+    text-align: center;
+}
+.navbar ul li {
+    display: inline-block;
+    margin-right: 10px;
+    margin-left: 10px;
+}
+.navbar ul li a {
+    text-decoration: none;
+    color: white;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-weight: bold;
+}
+.navbar ul li a:hover {
+    color: yellow;
+}
+.navbar ul li a:active {
+    color: red;
+}
+.header-background {
+    background: url(image/header-background.png) no-repeat;
+    background-size: cover;
+    padding: 150px;
+    margin-left: -8px;
+    margin-right: -8px;
+}
+.container-body {
+    color: white;
+    background-color: rgb(44, 44, 44);
+    padding: 1px;
+    margin: -8px;
+}
+.header-title-text-for-title {
+    text-align: center;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+.paragraph-info-spoilers {
+    margin-left: 150px;
+    margin-right: 150px;
+}
+.container-body-fan-game-link-downloads {
+    margin: 10px;
+    background-color: rgb(27, 27, 27);
+    padding: 15px;
+}
+.image-fan-game-download {
+    float: left;
+}
+.image-fan-game-link {
+    margin: 10px;
+}
+.image-fan-game-link a img {
+    width: 300px;
+    box-shadow: 0px 0px 5px 1px black;
+}
+.fan-game-info-desc-table {
+    margin: 20px;
+}
+.fan-game-info-desc-table table tr td, .fan-game-info-desc-table table tr td h4 {
+    vertical-align: text-top;
+    margin-bottom: 30px;
+}
+.fan-game-container-body-button-margin-padding-download-btn {
+    margin: 30px;
+    text-align: center;
+}
+.fan-game-container-body-button-margin-padding-download-btn a button {
+    background-color: rgb(85, 85, 85);
+    color: white;
+    font-size: medium;
+    padding: 10px;
+    border: none;
+}
+.fan-game-container-body-button-margin-padding-download-btn a button:hover {
+    background-color: blue;
+    box-shadow: 0px 0px 8px 2px rgb(24, 24, 255);
+}
+.fan-game-container-body-button-margin-padding-download-btn a button:active {
+    color: black;
+    background-color: white;
+    box-shadow: none;
+}
+.sosmed-image-body-container {
+    text-align: center;
+}
+.sosmed-image-body-container img {
+    width: 50px;
+    border-radius: 10px;
+    margin-left: 10px;
+    margin-right: 10px;
+}
+.container-sosmed-body-padding-margin {
+    margin-top: 80px;
+}
+.element-end-footer-copyright-font-family {
+    margin: 1cm;
+    color: white;
+    text-align: center;
+    font-family: monospace;
+}
+/* adjusting background */
+@media (min-width: 120px) and (max-width: 360px) {
+    .header-background {
+        background-size: contain, cover;
+        padding: 40px;
+    }
+}
+@media (min-width: 361px) and (max-width: 480px) {
+    .header-background {
+        background-size: contain, cover;
+        padding: 50px;
+    }
+}
+@media (min-width: 481px) and (max-width: 640px) {
+    .header-background {
+        background-size: contain, cover;
+        padding: 60px;
+    }
+}
+@media (min-width: 768px) and (max-width: 800px) {
+    .header-background {
+        background-size: contain, cover;
+        padding: 80px;
+    }
+}
