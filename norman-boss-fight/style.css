@@ -1,0 +1,133 @@
+body {
+    background-color: black;
+    color: white;
+}
+a {
+    color: yellow;
+    font-weight: bold;
+}
+.navbar-container {
+    background-color: black;
+    margin-right: -8px;
+    margin-left: -8px;
+    margin-top: -8px;
+    padding: 1px;
+}
+.navbar {
+    text-align: center;
+}
+.navbar ul li {
+    display: inline-block;
+    margin-right: 10px;
+    margin-left: 10px;
+}
+.navbar ul li a {
+    text-decoration: none;
+    color: white;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-weight: bold;
+}
+.navbar ul li a:hover {
+    color: yellow;
+}
+.navbar ul li a:active {
+    color: red;
+}
+.container-body {
+    background-color: rgb(34, 34, 34);
+    margin-left: -8px;
+    margin-right: -8px;
+    margin-bottom: -8px;
+    padding: 20px;
+}
+.header-title {
+    text-align: center;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+.img-float {
+    float: left;
+}
+.img-float img {
+    width: 300px;
+    margin: 10px;
+}
+.list-info {
+    margin: 20px;
+}
+.list-info table tr td {
+    vertical-align: text-top;
+    margin-bottom: 30px;
+}
+.screenshots {
+    text-align: center;
+}
+.screenshots img {
+    width: 200px;
+    margin: 10px;
+}
+.desc-container {
+    background-color: rgb(14, 14, 14);
+    padding: 10px;
+}
+.desc-header {
+    margin-left: 30px;
+    margin-right: 10px;
+}
+.desc-info {
+    margin-left: 30px;
+    margin-right: 30px;
+}
+.sosmed-image-body-container {
+    text-align: center;
+}
+.sosmed-image-body-container img {
+    width: 50px;
+    border-radius: 10px;
+    margin-left: 10px;
+    margin-right: 10px;
+}
+.container-sosmed-body-padding-margin {
+    margin-top: 80px;
+}
+.element-end-footer-copyright-font-family {
+    margin: 1cm;
+    color: white;
+    text-align: center;
+    font-family: monospace;
+}
+.download-btn {
+    text-align: center;
+}
+.download-btn a button {
+    background-color: rgb(61, 61, 61);
+    padding: 10px;
+    color: white;
+    border: none;
+}
+.download-btn a button:hover {
+    color: yellow;
+}
+.download-btn a button:active {
+    background-color: rgb(34, 34, 34);
+}
+.download-btn a button b {
+    font-size: large;
+}
+.download-btn a button img {
+    width: 20px;
+    float: left;
+    margin-right: 10px;
+}
+@media (min-width: 240px) and (max-width: 480px) {
+    .img-float {
+        float: none;
+        text-align: center;
+    }
+    .desc-info {
+        margin-left: 10px;
+        margin-right: 10px;
+    }
+    .desc-header {
+        margin-left: 10px;
+    }
+}

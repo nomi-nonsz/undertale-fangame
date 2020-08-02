@@ -118,3 +118,16 @@ a {
     float: left;
     margin-right: 10px;
 }
+@media (min-width: 240px) and (max-width: 480px) {
+    .img-float {
+        float: none;
+        text-align: center;
+    }
+    .desc-info {
+        margin-left: 10px;
+        margin-right: 10px;
+    }
+    .desc-header {
+        margin-left: 10px;
+    }
+}

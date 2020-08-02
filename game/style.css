@@ -102,3 +102,9 @@ body {
     text-align: center;
     font-family: monospace;
 }
+@media (min-width: 240px) and (max-width: 480px) {
+    .image-fan-game-download {
+        float: none;
+        text-align: center;
+    }
+}
